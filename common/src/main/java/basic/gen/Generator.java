@@ -30,7 +30,7 @@ import java.util.regex.Pattern;
 
 
 @SupportedAnnotationTypes("basic.annotation.Endpoint")
-@SupportedSourceVersion(SourceVersion.RELEASE_11)
+@SupportedSourceVersion(SourceVersion.RELEASE_8)
 @AutoService(Processor.class)
 public class Generator extends AbstractProcessor {
 
