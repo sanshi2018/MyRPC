@@ -29,7 +29,7 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
-                    <compilerArgument>proc:none</compilerArgument>
+<!--                    <compilerArgument>proc:none</compilerArgument>-->
                     <!--                    如果搭配jpa和mapstract或者lomack的processr冲突 通过以下类似配置解决-->
                     <!--                    <annotationProcessorPaths>-->
                     <!--                        <path>-->

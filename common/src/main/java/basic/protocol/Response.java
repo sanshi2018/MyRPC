@@ -12,6 +12,9 @@ public class Response extends Protocol {
 
     /**
      * 调用ID
+     * //----------------------------|--------------------------------|
+     * // workerID (int) (workerId >> 32) | 调用ID (int) ++nextcallId  |
+     * (int) (callId >> 32) = workerID;
      */
     private long callId;
 

@@ -14,6 +14,9 @@ public class Request extends Protocol {
 
     /**
      * 调用ID
+     * //----------------------------|--------------------------------|
+     * // workerID (int) (workerId >> 32) | 调用ID (int) ++nextcallId  |
+     * (long) worker.id << 32 | nextCallIdSeq++;
      */
     private long callId;
 
